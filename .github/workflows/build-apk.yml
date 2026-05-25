@@ -34,7 +34,7 @@ jobs:
           echo "Repository files:"
           ls -la
 
-          ZIP_FILE="./DocScanner_Professional_V1.zip"
+          ZIP_FILE="./DocScanner_Professional_V1_Fixed.zip"
 
           if [ ! -f "$ZIP_FILE" ]; then
             echo "ZIP not found: $ZIP_FILE"
